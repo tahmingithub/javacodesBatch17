@@ -1,0 +1,20 @@
+    String Method:
+    String.length()-length of the string
+    Strring toLowerCase()-converts all characters in this String to lowercase
+    String toUpperCase()-converts all characters in this String to uppercase
+    Srting concat(String str)-appends one String to the end of another
+    boolean isEmpty()-checks if a String is empty or not
+    String trim()-going to remove all space before and after the String
+    boolean startsWith(String prefix)-tests if a string starts with the specified prefix beginning
+    boolean endsWith(String suffix)-tests if this string ends with the specified suffix
+    boolean contains(String anotherString)-test the sequence of characters in the string. If
+the sequences of characters are found, then it returns true otherwise returns false.
+    boolean equals(Object anObject)-compares this String to another String
+     boolean equalsIgnoreCase(String anotherString)-compares this String to another String, ignoring case
+considerations.
+    char charAt(int index)-returns the character located at the String's specified index
+    int indexOf(int ch)- returns the index within this string of the first occurrence of the specified
+    character or -1 if the character does not occur.
+    String substring(int beginIndex)-returns a new string that is a substring of this string
+    String substring(int beginIndex, int endIndex)-returns a new string that is a substring that begins
+with the character at the specified index and extends to the end of  this string

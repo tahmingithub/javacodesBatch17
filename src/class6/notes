@@ -1,0 +1,33 @@
+Operators:  +, ?, -, *
+Operators are symbol which perform an operation on data. There are many different types of operators in Java.
+Arithmetic Operators:
+   these operators help us perform simple mathematical operations. like
+   addition => +   int a=10  int b=20   int c=a+b  => 30
+   Subtraction => -
+   Multiplication =>  *
+   Division=> ?
+   Modulus=>%
+Shorthand Operators: They help us perform mathematical operations but using a little shorter syntax.
+  EX; add and updated the variable  +=   a=10  a+=20   =>30
+    subtract and updated the variable. -=  a=10  a-=20   =>10
+    Multiply and updated the variable   *=  a=10  a*=20   =>200
+    divide and updated the variable   /=  a=10  a /=20   => 0
+     Modulus and updated the variable   % =   a=10  a %=20   => 10
+Relational Operators:  Help us compare things.
+   == check if two objects are equal.
+   !=  check if two objects are not equal.
+   > greater than than
+   < less than
+   >= greater than equal
+   <= less than equal
+Logical Operator:
+   They help us combine multiple boolean conditions.
+   ! not
+   || or
+   && and
+Increment /Decrement Operators
+   ++ this help us increase the  value of a variable by 1
+   -- this help us decrease the  value of a variable by 1
+While loop  check condition first then executes the code // do while execute code first then check  condition
+        // sometimes when we write the logic do while , it becomes easier.
+        // There are no other  differences and reasons to use a do while instead of while
