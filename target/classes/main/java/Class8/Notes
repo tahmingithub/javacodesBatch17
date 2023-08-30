@@ -1,0 +1,32 @@
+Arrays:
+     Arrays are datastructures that help us store large amounts of similar data.
+     Arrays use indexing to manipulate data inside them. Index always start from zero.
+Why should we use arrays?
+     Arrays help us store and manipulate large amounts of data easily with the help of loops.
+     Whenever we have more than three similar items that we want to store and process together  we should
+     always with arrays.
+Syntax:
+    There are two ways of creating arrays:
+    Method1:
+    Datatype[] nameOfTHe Array={element1,element 2,element3}
+     Method2:
+    Datatype[] nameOfTHe Array=new DataType[size or number of elements that we store]
+Enhanced For Loop:
+    Enhanced for loop is used to iterate through datastructures which has multiple items stored inside them
+Why should we use Enhanced For Loop:
+    It is simple and easy to understand
+Syntax:
+    for(DataTypeOfElement any variableName: NameOfTheDataStructure){
+    }
+    ex:       for(String n: names){
+    }
+Limitations of Enhanced For Loop:
+    1: Enhanced for Loop can't be used for updating the elements.
+    2: Access the elements in the reverse order etc.
+Break:
+    Break keyword is used in switch cases statements and with the loops to terminated the loops prematurely.
+Why we should use break keyword:
+    Using break keyword can help save a lot of processing  time and our code can execute faster.
+Continue:
+    Continue keyword is used to skip the code from a loop once we hit the skip keyword
+    java ignores the rest of the code int eh loop and jumps to the next iteration.

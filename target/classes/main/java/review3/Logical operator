@@ -1,0 +1,10 @@
+Logical Operators:
+Logical operators help combine multiple boolean conditions.
+
+There are 3 types in java.
+1)  NOT (!)
+ boolean cond =true;
+ sout"!cond"
+2)   OR (||)  multiple choices
+Logical  Or help us combine
+3_  && (AND)-
