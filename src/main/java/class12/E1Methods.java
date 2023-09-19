@@ -9,8 +9,6 @@ public class E1Methods {
             System.out.println("Please enter the details again");
             takeUserInput();
         }
-
-
         static void takeUserInput(){
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please Enter your name");

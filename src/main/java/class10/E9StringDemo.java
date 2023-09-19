@@ -3,7 +3,7 @@ package class10;
 public class E9StringDemo {
     public static void main(String[] args) {
 
-        String str= "Today is  a Ja Class";
+        String str= "Today is  a Ja Class";   //str is obj
         System.out.println(str.startsWith("T"));
         System.out.println(str.startsWith("Today"));
         System.out.println(str.endsWith("s"));

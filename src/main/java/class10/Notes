@@ -2,11 +2,13 @@ Object Oriented Programming: (OOP)
 It is just a way (Set of rules) of writing code.
 It basically helps us write large amounts of code. That is easier to change and manage. There are other ways like functional
 programming and procedural  programming.
+
 Why we should use OOP?
 1) It helps us write large amounts of code easily.
 2) It also helps us represent the world around us inside computers easily.
 3) Changing code becomes easier.
 4) Sharing code and collaboration become easier.
+
 Main Concepts/Main Pillars of OOP:
 1) Classes and Objects. (Base not considered main pillar)
 2) Inheritance
@@ -25,4 +27,11 @@ My note:
 2.  name.toLowerCase())===> change to lowercase letter.
  (name.toUpperCase())===> change to upper case letter
 name1.concat(name)===>  add it to name1
-.isEmpty();====> check if string is empty or no , true or false
+.isEmpty();====> check if string is empty or no , use boolean true or false
+name.trim())====>   remove all the spaces before and after the String
+startsWith===> test if string starts with specific prefix, use boolean true false
+str.contains====> test if string contains a specific word  then if found  true and false
+name.equals(name2)  ===> if name equals to another name , use boolean true and false
+name.equalsIgnoreCase(name2))    ==.  if name equals to another name. ignore upper and lowercase
+name.split(" ")  ====> seperate the sentance word by word that first word will be index 0 . ex:  my name is Tahmin
+my is 0 index, name is 1 index

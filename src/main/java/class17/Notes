@@ -1,0 +1,58 @@
+Inheritance:
+     Inheritance allows one class to have all the properties and
+     methods from another class except private members and constructors.
+     We use extends keyword.
+Why should we learn about Inheritance:
+    1) Faster development
+    2) Saves memory
+
+Syntax:
+    class Parent{
+
+    }
+
+    class Child extends Parent{
+
+    }
+
+Rules:
+    1) Private members(fields and methods) are not accessible in child classes.
+    2) Constructors are also no available for child classes directly.
+
+Types of Inheritance:
+1) single:    only one  , one child class and one parent class
+2) Hierarchical:  one parent multiple child.      is the most common one
+3)multiLevel:     // my  mom inherit from Grandma and i inherit from my mom
+4) Hybrid:
+5) Multiple :  (It is not supported by java)
+===============================================
+1) Single Inheritance:
+    Only one parent and only one child (Not very common)
+2) Hierarchical:
+    one parent multiple child.
+
+3) MultiLevel:
+    Multiple inheritance happens when a class c inherits from B and B inherits from A . ex:  A (parent)-B-C
+4) Hybrid:
+      Hybrid is a mixture of Hierarchical and MultiLevel.
+
+5) Multiple: Diamond
+Multiple parent classes and one child class. It create problem, ex:diamond problem
+if multiple parents for a class , then it is diamond
+
+What is Diamond problem in OOP?
+     The ambiguity that arises when two classes B and C inherit from A, and a further class D
+     inherits from both B and C, so that if there is a method in A that B and/or C has overridden,
+     and D does not override it, it is unclear which version of the method D should inherit.
+
+* Tightly couple happen in all Inheritance. If you change one class variable name , it effect every other class.
+if you touch class A (String Name;) it effect class B , C and D
+
+*Diamond problem : Diamond Shape        A
+              parent B, method        B /\ C   parent C  method
+                                        \/
+                                         D
+
+                                  A is grandparent, B & C is parent , B and c inherit from parent A,
+                                 * B and C is parent and D is child , so D the child get confuse to get method from
+                                  parent C pr parent B.

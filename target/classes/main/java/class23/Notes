@@ -1,0 +1,34 @@
+Encapsulation:         ( is like  medication)
+    It is one of the four fundamental OOP concepts.
+    It says Create classes to write code and store data.
+    use private access modifiers  to secure the data by limiting the access.
+    Create getter setter method for every field if you want others to change or see those fields.
+
+Why should we learn about Encapsulation?
+    It improves the control over the data that we store in the fields of a class
+    which leads us to more secure code.
+
+Collections framework:
+    Collections framework in java contains a lot of classes and interfaces.
+    Which help us store and manipulate large amounts of data easily and
+    efficiently.
+
+Why Collections framework:
+    Arrays have limitations
+    1) They are fixed in size meaning once we provide the size we can't
+    change it afterwards.
+    2) They don't have any built-in methods to help us process the data.
+
+    My note:
+    for encapsulation whenever you want to create class, make it private  and for every field  create two method
+    getter and setter for user to read and change it. ex: like bank lock has key  and the manager also have the key to access it.
+    getter( read)
+    setter (change, modify. update)
+    ROLE Encapsulation:
+    1: create class
+    2:if you want to store some data realated to class , create field and make them private
+    3: create method to execute
+    4: those filed if you want other to see , create getter method,
+    for those field for other to change, create setter .
+    method.
+    5: for those field that you dont want others to  change , set them final and private.

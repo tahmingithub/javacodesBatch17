@@ -8,16 +8,11 @@ public class T1StringMethod {
         for Example String st=hello=>l
         2:   create a String and print it in reverse order (sunday--->yadnuS).
         */
-
         String str="hello";
-
-
             if(str.length()%2!=0&&str.length()>=3){
                 int middle=str.length()/2;                 // 5/2= 2   , int cant be decimal, thus 5/2=2
-                System.out.println(str.charAt(middle));
-
+                System.out.println(str.charAt(middle));      // total length of character is 5
         }
-
 
     }
 }

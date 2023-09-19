@@ -6,14 +6,15 @@ public class Dog {
     String breed;
     int age;
 
-    void printInfo(){  // methods
-        System.out.println(name+" "+ breed+ "  "+ age);
+    void printInfo() {  // methods
+        System.out.println(name + " " + breed + "  " + age);
     }
 
-    void printName(){
+    void printName() {
         System.out.println(name);
     }
-    void changeName(String dogName){
-        name=dogName;
+
+    void changeName(String dogName) {
+        name = dogName;
     }
 }

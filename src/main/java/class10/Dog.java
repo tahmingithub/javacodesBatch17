@@ -1,7 +1,7 @@
 package class10;
 
 public class Dog {
-    String name;
+    String name;    // attribute/ properties
     String breed;
     char gender;
     int age;
@@ -9,7 +9,7 @@ public class Dog {
 // behavior is action
     void eat(){         //to know behavior , we create void
         System.out.println("Eating meat and bones..");
-    }
+    }  // behavior, function, method
     void bark(){
         System.out.println("Woff Woff..");
     }

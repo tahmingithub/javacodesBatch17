@@ -13,8 +13,6 @@ public class T1Method {
      /* Create a method that will take a number and prints whether it is odd or even
       */
 
-
-
      void checkEvenOdd(int num){
          if(num%2==0){
              System.out.println(num+ "  is even number");

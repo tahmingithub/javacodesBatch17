@@ -1,0 +1,8 @@
+variables: 4 type
+local : variables are inside block of code or main method (public static void main), inside method too
+instance variable:
+Static variables:  defines inside class but outside of any method ,, we use keyword static, constructor or method,
+we dont need object
+constructor :is block of code that is similar to method , execute everytime when we create an object.
+
+role of constructor is to initialize an object(give initial  values).

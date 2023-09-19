@@ -13,7 +13,7 @@ public class PhoneTester {
 
 
         Phone pixelObj=new Phone();
-        pixelObj.make="Google";
+        pixelObj.make="Pixel";
         pixelObj.model="Pixel 7";
         pixelObj.price=799;
         pixelObj.os="Android";

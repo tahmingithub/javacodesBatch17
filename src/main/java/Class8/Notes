@@ -13,10 +13,11 @@ Syntax:
     Datatype[] nameOfTHe Array=new DataType[size or number of elements that we store]
 Enhanced For Loop:
     Enhanced for loop is used to iterate through datastructures which has multiple items stored inside them
+
 Why should we use Enhanced For Loop:
     It is simple and easy to understand
 Syntax:
-    for(DataTypeOfElement any variableName: NameOfTheDataStructure){
+    for(DataTypeOfElement  any variableName: NameOfTheDataStructure){
     }
     ex:       for(String n: names){
     }

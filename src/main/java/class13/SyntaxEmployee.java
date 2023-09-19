@@ -12,7 +12,6 @@ public class SyntaxEmployee {
     int salary;
     static String CEO = "Sumair"; // this is static variables
 
-
     public static void main(String[] args) {  // we created the tester in here instead of creating another class.
         SyntaxEmployee asghar = new SyntaxEmployee();
         asghar.empId = "I123";
@@ -22,10 +21,14 @@ public class SyntaxEmployee {
         moazzam.empId = "I456";
         moazzam.salary = 95;
 
-        System.out.println(moazzam.salary);   // mozzam is object,  variable salary is variable
-        System.out.println(SyntaxEmployee.CEO);  // SyntaxEmployee is class, ceo is variable, you get Sumir
-        System.out.println(moazzam.CEO);  // you can use any object but CEO variable , you get Sumir
-        System.out.println(asghar.CEO);
+        System.out.println(moazzam.empId); // mozzam = object,   empId = variable
+        System.out.println(moazzam.salary);
+        // mozzam is object,  variable salary is variable
+        System.out.println(SyntaxEmployee.CEO);  //  to ceo we try first class whcih is syntaxEmplyee , still gives sumir
+        System.out.println(moazzam.CEO);  //  to ceo we do object which mozzam, still gives sumir
+        System.out.println(asghar.CEO); // because static string ceo is static , we can access anywhere and if we add o
+        // object or class still comes out.
+
 
     }                                         // Static variable can be access anywhere , you dont need object
 }

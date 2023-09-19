@@ -19,7 +19,6 @@ public class Student {    // main method needed when we  execute, no main method
         ehabObj.id="abc123";
         ehabObj.study();   // scanner.nextINt()
 
-
         Student habibObj=new Student();
         habibObj.name="Habin";
         habibObj.age=20;

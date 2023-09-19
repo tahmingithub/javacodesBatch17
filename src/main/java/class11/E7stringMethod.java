@@ -12,7 +12,7 @@ public class E7stringMethod {
         System.out.println(str.replaceAll("[A-Z0-58-9a-j]", ""));
         System.out.println(str.replaceAll("\\d", "")); // digit like 0-9
         System.out.println(str.replaceAll("\\s", "")); // space
-        System.out.println(str.replaceAll("[^A-Z]", ""));   // A^ means not
+        System.out.println(str.replaceAll("[^A-Z]", ""));   // A^ means not A to Z
         System.out.println(str.replaceAll("[^A-Za-z0-9]", ""));
 
 
