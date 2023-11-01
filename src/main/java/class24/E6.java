@@ -11,7 +11,7 @@ public class E6 {
         words.add("coffee");
         words.add("table");
         words.add("TV");
-       /* for (String x:words){
+       /* for (String x:words){   // enhanced loop
             System.out.println(x);
         }*/
         words.forEach(x-> System.out.println(x));
@@ -22,7 +22,13 @@ public class E6 {
             }
         }
 */
-        words.removeIf(x->x.contains("e"));
+        words.removeIf(x->x.contains("e"));   //   we  use lambda expression.
+        // words => name of arraylist
+        //.remove=> method
+       // if()=> condition start
+        //x=> variable name for the element of arrayList
+
+
 
 
     }

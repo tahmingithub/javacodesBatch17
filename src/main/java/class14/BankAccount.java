@@ -7,6 +7,9 @@ public class BankAccount {
     public double accountBalance = -300;
     String accountNumber = "12345";
 
+    public static void getBankAccountNumber() {
+    }
+
     private void printInfo() {
         System.out.println("I am Fahim from batch 17");
     }

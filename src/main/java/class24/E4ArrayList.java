@@ -11,12 +11,11 @@ public class E4ArrayList {
         numbers.add(25);
         numbers.add(100);
         numbers.add(5);
-        System.out.println(numbers);
+       System.out.println(numbers);
         int sum=0;
        for(Integer n: numbers)   {   //  Integer datatype, n variable , numbers
 
            sum+=n;  // sum=sum+n   // shorthand operator
-
        }
         System.out.println(sum);
     }

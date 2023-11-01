@@ -1,0 +1,34 @@
+Maps:    It is like dictionary
+    Maps are dataStructures which stores key values pairs.
+    There are many different types of maps in java but we will be discussing:
+
+    1: HashMap 2: LinkedHashMap  3: TreeMap  4: HashTable.
+    Maps are not part of the collections framework.
+    Map is the name of the interface and HashMap, LinkedHashMap , TreeMao and HashTable are the classes that implement
+    this interface.
+Why we should learn about Maps:
+    All the other dataStructures that we have learned can only store one value at a time and they are index based.
+    Maps allow us to store key values pairs which makes them a better joice because we know what we are storing.
+
+    Maps is interface and  HashMap, LinkedHashMap and TreeMap and HashTable is classes.
+
+Syntax of ArrayList : ***
+NameOfTheClass<DataType>  variableName= new NameOfTheClass<>();
+ArrayList<String> names= new ArrayList<>();    // we store one value
+
+SSyntax of Maps:   ***
+NNameOfTheClass<DataTypeOfKey, DataTypeOfValue>  variableName= new NameOfTheClass<>();
+HashMap<String, Double> names = new HshMap<>();
+
+for Map=> we can use put not add to add names
+
+My note :Syntax for ArrayList, LinkedList and Sets
+//ArrayList<DataType> nameForArrayList(variable)=new ArrayList<>();
+        //LinkedList<DataType> nameForLinkedList=new LinkedList<>();
+        //Arraylist, linkedlist and sets has the same formula
+        //set<DataType> nameFor set(variable)=new set<>();
+       for ArrayList, LinkedList and set=>  we can use add to add names
+
+       ///NameOfTheClass<DataTypeOfKey, DataTypeOfValue>  variableName= new NameOfTheClass<>();
+       Map<String, Double >student=new HashMap<>(); => we use put to add names in Map
+       remove method is not present in Map
