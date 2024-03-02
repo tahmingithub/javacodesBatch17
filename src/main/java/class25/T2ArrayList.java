@@ -24,7 +24,7 @@ public class T2ArrayList {
             aList.add("Jane");
             aList.add("James");
             System.out.println(aList);
-            LinkedHashSet<String> set = new LinkedHashSet<>(aList);
+            LinkedHashSet<String> set = new LinkedHashSet<>(aList);// -->>use linkhashset
             aList.clear();   //clear-> means no data
            aList.addAll(set);
             System.out.println(aList);

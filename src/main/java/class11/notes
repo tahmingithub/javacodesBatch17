@@ -1,6 +1,6 @@
 String Class:
     String class is designed to store symbols (letters(A, d,C) numbers(10,25),
-    special characters(#,$,%)) in teh form of a group. There are many methods
+    special characters(#,$,%)) in the  form of a group. There are many methods
     already written by java developers that we can just use. This is the most widely sued class in java.
     for example:
     length()

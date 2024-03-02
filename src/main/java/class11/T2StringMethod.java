@@ -10,12 +10,22 @@ public class T2StringMethod {
           //  System.out.print(str.charAt(i));
            // System.out.println("======")
         // 2nd way
-             String str="Sunday";
+            /* String str="Sunday";
              String reversed= " ";
             for (int i= str.length()-1 ; i>=0; i--) {    // last index always 1 less than length
             reversed=reversed+str.charAt(i);
               }
-              System.out.println(reversed);
+             * System.out.println(reversed);
+       */ System.out.println("*********");
 
+
+       String name = "Tahmin";
+       String reversed= " ";
+        for (int i = name.length()-1; i >=0 ; i--) {
+            reversed= reversed +name.charAt(i);
+
+        }
+
+        System.out.println(reversed);
         }
     }

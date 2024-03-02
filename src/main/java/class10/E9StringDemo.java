@@ -10,5 +10,6 @@ public class E9StringDemo {
         System.out.println(str.endsWith("Class"));
 
 
+
     }
 }

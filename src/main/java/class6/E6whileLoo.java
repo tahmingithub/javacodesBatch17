@@ -10,5 +10,8 @@ public class E6whileLoo {
         i--;
 
         }
+        System.out.println("____________");
+
+
+        }
     }
-}

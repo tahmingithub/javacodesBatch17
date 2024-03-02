@@ -10,5 +10,7 @@ public class E9Array {
             System.out.println(fruit[i]);
         }
 
+
+
     }
 }
